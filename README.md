@@ -1,5 +1,6 @@
 # docker-debos
 
+```bash
 #!/bin/bash
 
 docker run --rm \
@@ -8,3 +9,4 @@ docker run --rm \
         -v ${PWD}:/root \
         debos \
         /bin/bash -c "debos $*"
+```
